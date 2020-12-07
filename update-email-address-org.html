@@ -5,11 +5,11 @@
       <title>myCASA</title>
       <meta name="viewport" content="width=device-width">
       <meta name="viewport" content="initial-scale=1">
-      <link rel="stylesheet" href="../mycasa-src/css/furnace.min.css">
-      <link rel="stylesheet" href="../mycasa-src/css/casa.css">
-      <script type="text/javascript" src="../mycasa-src/js/furnace.min.js"></script>
-      <script type="text/javascript" src="../mycasa-src/js/jquery.min.js"></script>
-      <script type="text/javascript" src="../mycasa-src/js/jquery.js"></script>
+      <link rel="stylesheet" href="../mycasa-src-4.0/css/designsystem.min.css">
+      <link rel="stylesheet" href="../mycasa-src-4.0/css/casa.css">
+      <script type="text/javascript" src="../mycasa-src-4.0/js/designsystem.min.js"></script>
+      <script type="text/javascript" src="../mycasa-src-4.0/js/jquery.min.js"></script>
+      <script type="text/javascript" src="../mycasa-src-4.0/js/jquery.js"></script>
       <script type="text/javascript">
          /* page specific js */
          
@@ -83,7 +83,7 @@
 			  <ul class="au-link-list au-link-list--inline">
 				<li><a href="dashboard-bob-org.html">myCASA</a></li>
 				  <li><a href="organisation-profile.html">Profile</a></li>
-				   <li>Update mobile number</li>
+				   <li>Update email address</li>
 			  </ul>
 			</nav>	
 			<div class="row">
@@ -97,24 +97,30 @@
 					</a>
 				</header>
 			
-
-
-				<h2 class="au-display-md">Current email address</h2>
-				bob@bobsdronedelivery.com	
-	<br><br>
+                <div class="au-form-group">
 				<div class="au-callout">
                   <h4>Email account</h4>
                         <p>The provided email address should be for an organisation email account and <strong>not</strong> a personal email account, which could be accessed by others in your absence.<br><br>
 						Please note, this is CASA’s preferred method of communication for your organisation.</p>
+                    <p>A verification code will be sent to the new email address.</p>
                 </div>
-				<br>
-				<label class="casa-label-guidance" for="text-input-block">New email address</label>
-				<input class="au-text-input au-text-input--block" name="text-input-block" id="text-input-block" type="text" value="">
+                </div>
+                         
+<div class="au-form-group">
+				<h2 class="au-display-md">Current email address</h2>
+				bob@bobsdronedelivery.com	
+                </div>
+                
+
 				
-				<br />	
+                <div class="au-form-group">
+				<label class="au-label" for="text-input-block">New email address</label>
+				<input class="au-text-input au-text-input--block" name="text-input-block" id="text-input-block" type="text" value="">
+                </div>	
 			
-  			<a class="au-btn" href="email-updated.html">Update</a>
-					
+                <div class="au-form-group">
+  			<a class="au-btn" href="enter-verification-code-org.html">Send verification code</a>
+                </div>
 
 				
 				</div>
@@ -140,11 +146,20 @@
 		</div>	
 	</div>
 	
-<div class="footer">
-		<div class="footer-wrapper">
-			<iframe src="../mycasa-src/footer.html" frameborder="0" border="0" scrolling="no"></iframe>
+          <div class="footer">
+<div class="banner">
+				<div class="container">
+					<div class="row">
+					 <div class="col-xs-12">
+				We are always looking for ways to improve our services. <a href="feedback.html">Please provide feedback on myCASA</a>
+				</div>
+				</div>
+			</div>
 		</div>
-	</div>
+            <div class="footer-wrapper">
+               <iframe src="../mycasa-src-4.0/footer.html" frameborder="0" border="0" scrolling="no"></iframe>
+            </div>
+         </div>
 	
 	
 </main>
